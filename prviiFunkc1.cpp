@@ -1,8 +1,5 @@
  
 #include <iostream>
-#include <fstream>
-#include <string>
-#include <iostream>
 using namespace std;
 //Milan Milivojevic pripremio zadatak
 ///////////////////////////////////
