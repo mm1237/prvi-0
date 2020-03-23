@@ -15,7 +15,7 @@ using namespace std;
       }
 }
 ///Funkciji prosledjujemo jedan parametar tj. vrednost (10) koju preuzima  prpmenljiva k
-//i ke lokalna promenljiva zato sto je nije potrebno proslediti funkciji
+//i je lokalna promenljiva zato sto je nije potrebno proslediti funkciji
 ////////////////////////
  int main()
  {
