@@ -1,28 +1,26 @@
  
 #include <iostream>
-#include <fstream>
-#include <string>
-#include <iostream>
+
 using namespace std;
 //Milan Milivojevic pripremio zadatak
 ///////////////////////////////////
 
- void ispisi(int i, int k) 
+ void ispisi(int k) 
 {
- 
+        int i=0;
  	while(i<k)
 	 {
 	   cout<<"* ";
  	   ++i;
       }
 }
-///Funkciji prosledjujemo dva parametra tj. vrednosti (0,10) na osnovu tih vrednosti se koje
-//preuzimaju promenljive i,k na ekranu se ispisuje 10 zvezdica
+///Funkciji prosledjujemo jedan parametar tj. vrednost (10) koju preuzima  prpmenljiva k
+//i ke lokalna promenljiva zato sto je nije potrebno proslediti funkciji
 ////////////////////////
  int main()
  {
- 	int p=0,f=10;
-    ispisi(p, f) ;
+ 	int f=10;
+        ispisi(f) ;
  	return 0;
  	
 }
