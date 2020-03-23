@@ -32,7 +32,7 @@ void raspored(int k)
  int main()
  {
  	int p=0,f=10;
-    raspored(f);
+        raspored(f);
  	return 0;
  	
 }
